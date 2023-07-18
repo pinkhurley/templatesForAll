@@ -1,0 +1,24 @@
+/* // In style, paste this */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --heart-color: #cc0000;
+}
+
+.like-container {
+  margin: 20px;
+  display: flex;
+}
+
+.like-btn {
+  color: var(--heart-color);
+  margin-right: 50px;
+}
